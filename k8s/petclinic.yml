@@ -30,7 +30,7 @@ spec:
     spec:
       containers:
         - name: workload
-          image: myrepo/petclinic:9-SNAPSHOT
+          image: myrepo/petclinic:10-SNAPSHOT
           env:
             - name: SPRING_PROFILES_ACTIVE
               value: postgres
